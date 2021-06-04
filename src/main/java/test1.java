@@ -39,7 +39,7 @@ public class test1
       WebElement finalclick = driver.findElement(By.cssSelector("#yDmH0d > c-wiz > div > div.WFnNle > c-wiz > div.OlSOob > c-wiz > div.hRFt4b > c-wiz > div.ykTHSe > div > div.Y3WOZb.Ab7Lhd > div > div.ordo2 > div.PxXj2d > span"));
       finalclick.click();
       finalclick.click();
-      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      driver.manage().timeouts().implicitlyWait( 10000000,TimeUnit.SECONDS);
       WebElement textarea = driver.findElement(By.cssSelector("#yDmH0d > c-wiz > div > div.WFnNle > c-wiz > div.OlSOob > c-wiz > div.ccvoYb > div.AxqVh > div.OPPzxe > c-wiz.rm1UF.UnxENd > span > span > div > textarea"));
       textarea.click();
       textarea.sendKeys(this.input);
